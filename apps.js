@@ -20,7 +20,10 @@ let request = https.request(options, (response) =>{
     response.on('end', () => {
         // TODO : [x] Parse the data (Convert String To JSON)
         let profile = JSON.parse(body)
-        console.log(profile.avatar_url)
+        //console.log(profile.login + ' owns ' + profile.public_repos + ' repo(s) ')
+        console.log(`${profile.login} owns 
+        ${profile.public_repos} repo(s) and 
+        has ${profile.followers} follower(s)`)
     })  
 })
 
