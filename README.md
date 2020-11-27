@@ -3,6 +3,13 @@
 // Solution: Use NodeJS to connect to Github API to 
 // get profile info and print out to the console 
 
+
+## TODO
+[x] Connect to Github API
+[x] Read the data 
+[x] TODO : Parse the data (Convert To JSON)
+[ ] TODO : Print the data out 
+
 /* Cara Nulis Function Javascript ada 2 */
 // Pertama
 /*
